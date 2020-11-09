@@ -64,7 +64,7 @@ void loop() {
 
   if(t<30) {
     digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(18000-t*600);                       // wait for a second
+    delay(18000-t*600);                       
     digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
     delay(18000-t*600);
   }
